@@ -59,7 +59,7 @@ if (*head == NULL)
 {
 (*head) = new;
 new->next = NULL;
-} 
+}
 else
 {
 new->next = (*head);
